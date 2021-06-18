@@ -1,9 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// bootstrap styles
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import './index.css';
+
+
+// carasoul styles
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+
+import Header from './components/header'
 ReactDOM.render(
   <React.StrictMode>
     <App />
