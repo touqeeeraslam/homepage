@@ -13,7 +13,6 @@ import './index.css';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-import Header from './components/header'
 ReactDOM.render(
   <React.StrictMode>
     <App />

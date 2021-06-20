@@ -16,7 +16,7 @@ export function filterModuleWithType(moduleType) {
   return titles.filter((t) => t.moduleType === moduleType);
 }
 
-export function extractImagePathFromThumbnail(fileName , fileType) {
-	let Imagepath = fileName.thumbnails[fileType];
- 	 return Imagepath?.url;
+export function extractImagePathFromThumbnail(fileName, fileType) {
+  let Imagepath = fileName.thumbnails[fileType];
+  return Imagepath?.url;
 }

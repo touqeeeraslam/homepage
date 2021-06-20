@@ -1,12 +1,12 @@
 import Hero from '../../components/hero';
+import React from 'react'
 import MediaList from '../../components/media-list';
-const HomePage = ()=> {
-
+const HomePage = () => {
   return (
-	  <>
-	<Hero />
-	<MediaList />
-	 </>
+    <React.Fragment>
+      <Hero />
+      <MediaList />
+    </React.Fragment>
   );
-}
+};
 export default HomePage;
