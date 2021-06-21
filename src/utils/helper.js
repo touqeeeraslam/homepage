@@ -1,5 +1,5 @@
 /// import json file
-import jsonData from '../data/homepage.json';
+import jsonData from './homepage.json';
 
 export const MODULE_TPYES = {
   LAYOUT: 'LAYOUT',

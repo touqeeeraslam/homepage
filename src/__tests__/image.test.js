@@ -1,5 +1,5 @@
 import { render, cleanup } from '@testing-library/react';
-import Image from '../image'
+import Image from '../components/image'
 
 describe('An Image', () => {
   afterEach(cleanup);
